@@ -1,0 +1,5 @@
+PySide6
+SQLAlchemy
+psycopg[binary]
+alembic
+pytest

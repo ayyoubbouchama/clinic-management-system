@@ -1,6 +1,30 @@
-node_modules/
+# Python
+__pycache__/
+*.py[cod]
+*.egg-info/
+build/
 dist/
+
+# Virtual environments
+.venv/
+venv/
+
+# Secrets
 .env
-*.log
+.env.*
+
+# IDE
 .idea/
 .vscode/
+
+# Testing
+.pytest_cache/
+.coverage
+htmlcov/
+
+# Logs
+*.log
+
+# Local database files
+*.db
+*.sqlite3
