@@ -1,5 +1,18 @@
+@'
+# Desktop application
 PySide6
+httpx
+
+# API backend
+fastapi
+uvicorn[standard]
+pydantic-settings
+
+# PostgreSQL and ORM
 SQLAlchemy
 psycopg[binary]
 alembic
+
+# Testing
 pytest
+'@ | Set-Content -Encoding utf8 requirements.txt
